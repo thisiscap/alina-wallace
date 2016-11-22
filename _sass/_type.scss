@@ -1,29 +1,36 @@
 // Custom fonts
 @font-face {
-    font-family: 'Cormorant-Regular';
-    src: url('/assets/cormorant/Cormorant-Regular.eot');
-    src: url('/assets/cormorant/Cormorant-Regular.woff') format('woff');
+	font-family: 'VisbyCF Medium';
+	src: url('/assets/visby-cf/visbycf-medium-webfont.woff2') format('woff2'), url('/assets/visby-cf/visbycf-medium-webfont.woff2') format('woff');
+	font-weight: 400;
 }
+
 @font-face {
-    font-family: 'Cormorant-Italic';
-    src: url('/assets/cormorant/Cormorant-Italic.eot');
-    src: url('/assets/cormorant/Cormorant-Italic.woff') format('woff');
+	font-family: 'VisbyCF Bold';
+	src: url('/assets/visby-cf/visbycf-bold-webfont.woff2') format('woff2'), url('/assets/visby-cf/visbycf-bold-webfont.woff2') format('woff');
+	font-weight: 700;
 }
+
+@font-face {
+	font-family: 'VisbyCF ExtraBold';
+	src: url('/assets/visby-cf/visbycf-extrabold-webfont.woff2') format('woff2'), url('/assets/visby-cf/visbycf-extrabold-webfont.woff2') format('woff');
+	font-weight: 900;
+}
+
+//Typographic styles and touches
 html {
-    font-family: $font-stack-normal;
-    -webkit-font-variant-ligatures: common-ligatures;
-    font-variant-ligatures: common-ligatures;
-    -webkit-font-feature-settings: "kern";
-    font-feature-settings: "kern";
-    font-kerning: normal;
-    color: $dark-grey;
-    font-size: 24px;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
+	font-family: $font-stack-normal;
+	color: $off-black;
+	font-size: 18px;
+	//	Nicer appearence of font
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
 }
-em {
-    font-family: $font-stack-italic;
+
+strong {
+	font-weight: 700;
 }
+
 h1,
 h2,
 h3,
@@ -33,6 +40,6 @@ h6,
 p,
 span,
 blockquote {
-    font-weight: 100;
-    max-width: 600px;
+	font-weight: 100;
+	max-width: 600px;
 }

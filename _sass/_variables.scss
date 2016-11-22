@@ -3,13 +3,14 @@ $medium-breakpoint: 32em;
 $large-breakpoint: 64em;
 
 // Colours
-$dark-grey: #3f3f3f;
-$blue: #0000e1;
-$navy: #0000a5;
-$pink: #f6839d;
-$taupe: #d3c19c;
-$cream: #f9f2d4;
+$pink: #d10073;
+$yellow: #ffd000;
+$teal: #73bdb8;
+$purple: #570544;
+
+$off-black: #333333;
 
 // Font stacks
-$font-stack-normal: 'Cormorant-Regular', Georgia, serif;
-$font-stack-italic: 'Cormorant-Italic', Georgia, serif;
+$font-stack-normal: 'VisbyCF Medium', sans-serif;
+$font-stack-bold: 'VisbyCF Bold', sans-serif;
+$font-stack-italic: 'VisbyCF ExtraBold', sans-serif;
