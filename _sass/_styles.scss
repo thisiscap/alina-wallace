@@ -1,0 +1,18 @@
+// Global
+::selection {
+    background: $blue;
+    color: white;
+}
+::-moz-selection {
+    background: $blue;
+    color: white;
+}
+// Structure
+* {
+    box-sizing: border-box;
+}
+
+// Elements
+
+
+// Media
