@@ -22,6 +22,7 @@ html {
 	font-family: $font-stack-normal;
 	color: $off-black;
 	font-size: 18px;
+    color: red;
 	//	Nicer appearence of font
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -40,6 +41,6 @@ h6,
 p,
 span,
 blockquote {
-	font-weight: 100;
+    color: aqua;
 	max-width: 600px;
 }
