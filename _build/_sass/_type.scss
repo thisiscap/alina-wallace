@@ -22,7 +22,7 @@ html {
 	font-family: $font-stack-normal;
 	color: $off-black;
 	font-size: 18px;
-    color: red;
+    text-align: center;
 	//	Nicer appearence of font
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -32,15 +32,14 @@ strong {
 	font-weight: 700;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-span,
-blockquote {
-    color: aqua;
-	max-width: 600px;
-}
+//h1,
+//h2,
+//h3,
+//h4,
+//h5,
+//h6,
+//p,
+//span,
+//blockquote {
+//	max-width: 600px;
+//}
