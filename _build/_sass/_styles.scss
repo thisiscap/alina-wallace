@@ -1,22 +1,73 @@
 // Global
 ::selection {
-    background: red;
+    background: $pink;
     color: white;
 }
-::-moz-selection {
-    background: red;
-    color: white;
-}
+
 // Structure
 * {
     box-sizing: border-box;
 }
 
 // Elements
-body {
-    max-width: 900px;
-    margin: 0 auto;
+html {
+    background-color: $pink;
 }
 
+body {
+    background-color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-top: 1em solid $yellow;
+}
+
+header {
+    h1 {
+        margin: 3em 0;
+    }
+    img {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+section {
+    h2 {
+        margin: 3em 0 1em;
+    }
+    h3 {
+        margin: 2em 0 0;
+    }
+}
+.featured-coverage-logo-grid {
+    
+}
+
+// Links
+a:link {
+    text-decoration: none;
+    color: $pink;
+}
+
+a:hover {
+    color: lighten($pink, 10%);
+}
+
+a:visited {
+    color: darken($pink, 10%);
+}
+
+.button {
+    border: 2px solid $pink;
+    padding: 0.6em;
+    margin: 2rem 0.5em;
+    transition: background-color 1s ease, color 1s ease;
+}
+
+.button:hover {
+    background-color: $pink;
+    color: white;
+}
 
 // Media
