@@ -58,16 +58,17 @@ a:visited {
     color: darken($pink, 10%);
 }
 
-.button {
+button {
     border: 2px solid $pink;
+    background-color: white;
     padding: 0.6em;
     margin: 2rem 0.5em;
     transition: background-color 1s ease, color 1s ease;
 }
 
-.button:hover {
+button:hover {
     background-color: $pink;
-    color: white;
+    a {color: white;}
 }
 
 // Media
