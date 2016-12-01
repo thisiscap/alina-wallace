@@ -22,11 +22,11 @@ body {
     background-color: white;
     max-width: 900px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 2em 2em 6em;
     border-top: 1em solid $yellow;
-    
     @include medium {
         text-align: center;
+        padding: 4em 4em 6em;
     }
 }
 
