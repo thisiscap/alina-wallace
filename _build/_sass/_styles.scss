@@ -64,10 +64,15 @@ a:visited {
 }
 
 button {
+    background-color: transparent;
+}
+
+button {
     border: 2px solid $pink;
-    background-color: white;
+    background-color: transparent;
     padding: 0.6em;
     margin: 1em 0;
+    transition: ease 1s background-color;
     a:visited {color: $pink;}
 }
 
@@ -75,5 +80,3 @@ button:hover {
     background-color: $pink;
     a {color: white;}
 }
-
-// Media
